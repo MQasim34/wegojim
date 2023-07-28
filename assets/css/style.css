@@ -217,5 +217,72 @@ font-family: 'Noto Sans JP', sans-serif; */
 }
 
 .homeSec2 {
-    height: 200vh;
+    padding: 90px 0;
+}
+
+.homeSec2 .Sec2_container {
+    max-width: 1132px;
+    width: 100%;
+    margin: auto;
+    padding: 13px;
+
+}
+
+.homeSec2 .Sec2_container .Sec2Inner {
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: flex-end; */
+    align-items: end;
+    /* gap: 30px; */
+    padding-bottom: 45px;
+    border-bottom: 1px solid #fff;
+    margin-left: 48px;
+}
+
+.homeSec2 .Sec2_container .Sec2Inner .sec2Left {
+    width: 37.4%;
+}
+
+/* .homeSec2 .Sec2_container .Sec2Inner .sec2Left .sec2Img {
+    padding-left: 48px;
+} */
+
+.homeSec2 .Sec2_container .Sec2Inner .sec2Rigth {
+    width: 63%;
+    padding-left: 41px;
+}
+
+.homeSec2 img {
+    width: 100%;
+}
+
+.homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h3 {
+    color: rgba(254, 195, 3, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h1 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 32px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt p {
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.9;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-style: normal;
 }
