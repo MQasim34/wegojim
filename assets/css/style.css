@@ -1,0 +1,221 @@
+/* for the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif; */
+
+
+/* staring styling */
+
+
+/* header */
+.header {
+    position: fixed;
+    z-index: 110;
+    width: 100%;
+    /* background-color: #ccc; */
+    padding: 16px 0;
+}
+
+.nevigation {
+    position: fixed;
+    width: 100%;
+    height: 371px;
+    background-color: rgba(15, 15, 15, 0.9);
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s ease-in-out;
+}
+
+.nevigation .navOuterMain {
+    padding: 27px 0 20px 0;
+    transition: all .2s ease-in-out;
+}
+
+.nevigation .navOuterMain .navLeft .menuSocualIcons {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-left: 3.5px;
+}
+
+.nevigation .navOuterMain .navLeft {
+    width: 22%;
+    padding-top: 17px;
+}
+
+.nevigation .navOuterMain .navLeft .navsplit {
+    padding-top: 74px;
+    padding-left: 4px;
+}
+
+.nevigation .navOuterMain .navLeft .navsplit ul.forpading {
+    padding-left: 89px !important;
+}
+
+.nevigation .navOuterMain .navLeft .navsplit ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nevigation .navOuterMain .navLeft .navsplit ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+
+.nevigation .navOuterMain .navLeft .navsplit ul li a:hover {
+    color: rgba(254, 195, 3, 1);
+}
+
+.nevigation .navOuterMain .navRight {
+    width: 87%;
+}
+
+.nevigation .navOuterMain .navRight .rightInner {
+    position: relative;
+    width: 586px;
+    height: 293px;
+    margin: auto 10% auto auto;
+}
+
+.nevigation .navOuterMain .navRight .rightInner .navCont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(15, 15, 15, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nevigation .navOuterMain .navRight .rightInner .navCont a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.801px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    margin-right: 24px;
+}
+
+.nevigation .navOuterMain .navRight .rightInner .navCont a span {
+    text-decoration: none;
+    color: rgba(254, 195, 3, 1);
+    margin-left: 9px;
+}
+
+.nevigation .navOuterMain .navRight .rightInner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nevigation .navOuterMain .navLeft .navinner {
+    gap: 52px;
+}
+
+.nevigation .navOuterMain .navLeft .navinner .navsplit ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.openNavMenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header .header_main .header_inenr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header .header_main .header_inenr .header_left .logoLink {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 41px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    letter-spacing: 1.99px;
+}
+
+.header .header_main .header_inenr .header_left .logoLink p {
+    margin: 0;
+}
+
+.header .header_main .header_inenr .header_left .logoLink span {
+    color: rgba(254, 195, 3, 1);
+    padding-left: 2px;
+}
+
+.header .header_main .header_inenr .header_right span {
+    display: block;
+    padding: 5.3px 2.61px 0 0;
+    cursor: pointer;
+}
+
+.header .header_main .header_inenr .header_right span svg {
+    transform: rotate(-58deg);
+}
+
+/* homeSec1 */
+.homeSec1 {
+    position: relative;
+}
+
+.homeSec1 .sec1Img {
+    background-image: linear-gradient(to right, rgba(15, 15, 15, 0.4), rgba(15, 15, 15, 0.4)), url('../Images/homeSec1Img1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeSec1 .sec1Content {
+    position: absolute;
+    left: 15.3px;
+    right: 0;
+    bottom: 73px;
+}
+
+.homeSec1 .sec1Content h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.801px;
+}
+
+.homeSec1 .sec1Content h1 a {
+    text-decoration: none;
+    color: rgba(254, 195, 3, 1);
+    margin-left: 9px;
+}
+
+.homeSec1 .sec1Img img {
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+
+}
+
+.homeSec2 {
+    height: 200vh;
+}

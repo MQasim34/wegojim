@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1001px) {
+    .nevigation .navOuterMain .navRight .rightInner {
+        width: 500px;
+        height: 260px;
+    }
+
+    .header .header_main .header_inenr .header_left .logoLink {
+        font-size: 36px;
+    }
+
+    .header .header_main .header_inenr .header_right span svg {
+        width: 30px;
+        height: 35px;
+    }
+
+    .nevigation .navOuterMain .navLeft .navsplit ul {
+        gap: 12px;
+    }
+
+    .nevigation .navOuterMain .navLeft .navsplit ul.forpading {
+        padding-left: 0px !important;
+        padding-right: 60px;
+    }
+
+    .nevigation .navOuterMain .navLeft {
+        width: 30%;
+    }
+
+    .nevigation .navOuterMain .navRight {
+        width: 70%;
+    }
+
+    .nevigation {
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .nevigation .navOuterMain .navLeft {
+        width: 100%;
+    }
+
+    .nevigation .navOuterMain {
+        gap: 30px;
+        padding: 0;
+    }
+
+    .nevigation .navOuterMain .navRight {
+        width: 100%;
+    }
+
+    .nevigation .navOuterMain .navRight .rightInner {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nevigation .navOuterMain .navLeft .navsplit ul.forpading {
+        padding: 0;
+    }
+
+    .nevigation {
+        height: 100%;
+    }
+
+    .homeSec1 .sec1Img {
+        background-image: url(../Images/homeSec1Img2.jpg);
+    }
+
+    .homeSec1 .sec1Content h1 {
+        font-size: 41px;
+    }
+
+    /* .homeSec1 .sec1Img img {
+        height: 150vh;
+    } */
+}
+
+
+@media only screen and (max-width: 575px) {
+    /* .homeSec1 .sec1Img img {
+        width: 130vh;
+    } */
+
+    .homeSec1 .sec1Content h1 {
+        font-size: 29px;
+        line-height: 1.5;
+    }
+}
+
+
+@media only screen and (max-width: 428px) {
+    .header .header_main .header_inenr .header_left .logoLink {
+        font-size: 26px;
+    }
+
+    .header .header_main .header_inenr .header_right span svg {
+        width: 25px;
+        height: 30px;
+    }
+
+    .nevigation .navOuterMain .navLeft .navinner {
+        gap: 20px;
+    }
+
+    .nevigation .navOuterMain .navRight .rightInner .navCont a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .homeSec1 .sec1Content h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .homeSec1 .sec1Content h1 {
+        font-size: 17px;
+    }
+}
