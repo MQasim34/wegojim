@@ -109,8 +109,41 @@
     .homeSec2 .Sec2_container .Sec2Inner {
         padding: 0;
     }
+
+    .homeSec3 .sec4Cont {
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .homeSec3 .sec4Cont p br {
+        display: none;
+    }
+
+    .homeSec3 .sec4Cont h1 {
+        font-size: 36px;
+    }
+
+    .homeSec3 .sec4Cont .meetBTN {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeSec3 .sec4Cont p::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
 
+
+
+
+@media only screen and (max-width: 600px) {
+    .homeSec3 .secImg img {
+        height: 100vh;
+    }
+}
 
 @media only screen and (max-width: 575px) {
     /* .homeSec1 .sec1Img img {
@@ -124,6 +157,10 @@
 
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h1 {
         font-size: 26px;
+    }
+
+    .homeSec3 .secImg {
+        background-image: linear-gradient(to right, rgba(15, 15, 15, 0.8), rgba(15, 15, 15, 0.8)), url('../Images/homeSec3Img1.jpg');
     }
 }
 
@@ -154,11 +191,36 @@
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h1 {
         font-size: 20px;
     }
+
+    .homeSec3 .secImg img {
+        height: 80vh;
+    }
+
+    .homeSec3 .sec4Cont h1 {
+        font-size: 26px;
+    }
+
+    .homeSec3 .sec4Cont p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .homeSec3 .secImg img {
+        height: 70vh;
+    }
 }
 
 
 @media only screen and (max-width: 360px) {
     .homeSec1 .sec1Content h1 {
         font-size: 17px;
+    }
+
+    .homeSec3 .secImg img {
+        height: 80vh;
+    }
+
+    .homeSec3 .sec4Cont h1 {
+        font-size: 23px;
     }
 }
