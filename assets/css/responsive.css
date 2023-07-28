@@ -71,6 +71,10 @@
         font-size: 41px;
     }
 
+    .homeSec2 .Sec2_container {
+        padding: 30px 0;
+    }
+
     .homeSec2 .Sec2_container .Sec2Inner {
         flex-direction: column;
     }
@@ -92,6 +96,10 @@
         gap: 30px;
     }
 
+    .homeSec2 .Sec2_container .Sec2Inner .s .Sec2Cntnt p {
+        margin: 0;
+    }
+
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h3,
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt p,
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth .Sec2Cntnt h1 {
@@ -99,11 +107,11 @@
     }
 
     .homeSec2 .Sec2_container .Sec2Inner .sec2Rigth {
-        padding: 0;
+        padding: 0 32px;
     }
 
     .homeSec2 {
-        padding: 0 0 45px 0;
+        padding: 0;
     }
 
     .homeSec2 .Sec2_container .Sec2Inner {
@@ -132,6 +140,28 @@
     .homeSec3 .sec4Cont p::after {
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .homeSec4 {
+        padding: 30px 0;
+    }
+
+    .homeSec4 .secinner form,
+    .homeSec4 .secinner {
+        flex-direction: column;
+    }
+
+    .homeSec4 .secinner input.forNM {
+        max-width: 100%;
+    }
+
+    .homeSec4 .secinner input.sibmit {
+        display: inline;
+        text-align: right;
+    }
+
+    .homeSec4 .secinner {
+        gap: 10px;
     }
 
 }

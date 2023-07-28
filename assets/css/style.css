@@ -403,3 +403,98 @@ font-family: 'Noto Sans JP', sans-serif; */
 .homeSec3 .sec4Cont .meetBTN a:hover {
     color: rgba(254, 195, 3, 1);
 }
+
+
+/* homeSec4 */
+.homeSec4 {
+    background-color: rgba(254, 195, 3, 1);
+    padding: 20px 0;
+}
+
+.homeSec4 .secinner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeSec4 .secinner h1 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 43px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.homeSec4 .secinner form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.homeSec4 .secinner input.forNM {
+    outline: none;
+    border: 1px solid #ffffff93;
+    background-color: transparent;
+    padding: 7px 10px;
+    max-width: 280px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    caret-color: #fff;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.homeSec4 .secinner input::placeholder {
+    color: #fff;
+    font-size: 13px;
+}
+
+.homeSec4 .secinner input.sibmit {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 7px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    transition: all .2s ease-in-out;
+}
+
+.homeSec4 .secinner input.sibmit:hover {
+    color: #000;
+}
+
+
+/* homeSec5 */
+.homeSec5 .secImg {
+    background-image: linear-gradient(to right, rgba(15, 15, 15, 0.6), rgba(15, 15, 15, 0.6)), url('../Images/homeSec5Img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeSec5 .secImg img {
+    width: 100%;
+    opacity: 0;
+    height: 110vh;
+}
+
+
+/* footerInner */
+.footerInner {
+    background-color: red;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
