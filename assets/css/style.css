@@ -476,6 +476,17 @@ font-family: 'Noto Sans JP', sans-serif; */
 
 
 /* homeSec5 */
+.homeSec5 {
+    position: relative;
+}
+
+.homeSec5 .sec5_container {
+    max-width: 1223px;
+    width: 100%;
+    margin: auto;
+    padding: 0 13px;
+}
+
 .homeSec5 .secImg {
     background-image: linear-gradient(to right, rgba(15, 15, 15, 0.6), rgba(15, 15, 15, 0.6)), url('../Images/homeSec5Img2.jpg');
     background-size: cover;
@@ -489,12 +500,405 @@ font-family: 'Noto Sans JP', sans-serif; */
     height: 110vh;
 }
 
+.homeSec5 .sec5Cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.homeSec5 .sec5Cont h1 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 43px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.homeSec5 .sec5Cont form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homeSec5 .sec5Cont form .inputOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.homeSec5 .sec5Cont form .inputOuter input {
+    outline: none;
+    border: 1px solid #ffffff93;
+    background-color: transparent;
+    padding: 10px 7px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    caret-color: #fff;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+}
+
+.homeSec5 .sec5Cont form .inputOuter.textareaOuter textarea::placeholder,
+.homeSec5 .sec5Cont form .inputOuter input::placeholder {
+    color: #b8b8b8;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.homeSec5 .sec5Cont form .inputOuter.textareaOuter textarea {
+    width: 100%;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border: 1px solid #ffffff93;
+    font-family: 'Montserrat', sans-serif;
+    caret-color: #fff;
+    color: #fff;
+    padding: 10px;
+}
+
+.homeSec5 .sec5Cont form .inputOuter.subimt {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.homeSec5 .sec5Cont form .inputOuter.subimt input {
+    display: inline-block;
+    width: auto;
+    border: none;
+    color: rgba(254, 195, 3, 1);
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+
 
 /* footerInner */
 .footerInner {
-    background-color: red;
+    padding: 45px 0 30px 0;
+    background-color: #000;
     background-attachment: fixed;
     background-position: center;
     width: 100%;
-    height: 300px;
+}
+
+.footerInner .footerMain {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerInner .footerMain .footerLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerInner .footerMain .footerLeft .footerBrand {
+    display: flex;
+    gap: 45px;
+
+}
+
+.footerInner .footerMain .footerLeft .footerBrand .footerLoogo a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 41px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    letter-spacing: 1.99px;
+}
+
+.footerInner .footerMain .footerLeft .footerBrand .footerLoogo a span {
+    color: rgba(254, 195, 3, 1);
+    padding-left: 2px;
+}
+
+.footerInner .footerMain .footerLeft p {
+    color: rgba(75, 75, 75, 1);
+    line-height: 1.9;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footerInner .footerMain .footerLeft .footerBrand .footerIcon {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.footerInner .footerMain .footerRight .footer_nav {
+    gap: 45px;
+}
+
+.footerInner .footerMain .footerRight .footer_nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footerInner .footerMain .footerRight .footer_nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+
+.footerInner .footerMain .footerRight .footer_nav ul li a:hover {
+    color: rgba(254, 195, 3, 1);
+}
+
+.footerInner .footerMain .footerRight .footerBNT {
+    margin-top: 20px;
+}
+
+.footerInner .footerMain .footerRight .footerBNT a {
+    display: inline-block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: rgba(254, 195, 3, 1);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footerInner .footerLower p {
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 45px;
+}
+
+
+
+
+
+/* contactsec1 */
+.contactsec1 {
+    position: relative;
+}
+
+.contactsec1 .consecImg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../Images/menuImg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactsec1 .consecImg img {
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+}
+
+.contactsec1 .contSec1cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20.77%;
+    text-align: center;
+}
+
+.contactsec1 .contSec1cont .container h3 {
+    color: rgba(254, 195, 3, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contactsec1 .contSec1cont .container h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 56.3px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 24px;
+    /* letter-spacing: 1.801px; */
+}
+
+
+
+.contactsec1 .consecImg.blogImg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../Images/homeSec1Img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactsec1 .contSec1cont.forpadding {
+    padding-top: 21.8%;
+}
+
+.contactsec1 .contSec1cont .container h1.title {
+    margin-top: 12px;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+}
+
+
+/* blogSec2 */
+.blogSec2 .sectionInner .secmain {
+    position: relative;
+}
+
+.blogSec2 .sectionInner .secmain .blogCon {
+    position: absolute;
+    bottom: 51px;
+    left: 62px;
+    color: #ffff;
+}
+
+.blogSec2 .sectionInner .secmain .blogCon h3 {
+    color: rgba(254, 195, 3, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blogSec2 .sectionInner .secmain .blogCon h1 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blogSec2 .sectionInner .secmain .blogLink .blogImg.blogImg1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../Images/blogimg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+
+.blogSec2 .sectionInner .secmain .blogLink .blogImg.blogImg2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../Images/blogimg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+
+.blogSec2 .sectionInner .secmain .blogLink .blogImg.blogImg2:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../Images/blogimg2.jpg);
+}
+
+.blogSec2 .sectionInner .secmain .blogLink .blogImg.blogImg1:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../Images/blogimg1.jpg);
+    transition: all .5s ease-in-out;
+}
+
+.blogSec2 .sectionInner .secmain .blogLink .blogImg img {
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+}
+
+
+/* location */
+.contactsec1 .consecImg.locationImg1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../Images/homeSec3Img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactsec1 .contSec1cont.locpadding {
+    padding-top: 21.34%;
+}
+
+.contactsec1 .contSec1cont.locpadding .loctitle {
+    margin-top: 25px;
+    letter-spacing: 2.09 px;
+    font-size: 56.1px;
+}
+
+/* locSec1 */
+.locSec1 .locSecImg {
+    position: relative;
+}
+
+.locSec1 .locSecImg img {
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+}
+
+.locSec1 .locSecImg .locmain {
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locSec1 .locSecImg .locmain .locInner {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    background-color: rgba(15, 15, 15, 0.7);
+    width: 1105px;
+    height: 400px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

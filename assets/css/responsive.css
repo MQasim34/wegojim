@@ -35,6 +35,12 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .footerInner .footerMain .footerLeft p br {
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .nevigation .navOuterMain .navLeft {
@@ -164,6 +170,84 @@
         gap: 10px;
     }
 
+    .homeSec5 .sec5_container {
+        padding: 0 25px;
+    }
+
+    .homeSec5 .sec5Cont form {
+        width: 100%;
+    }
+
+    .footerInner .footerMain {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerInner .footerMain .footerLeft .footerBrand {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footerInner .footerMain .footerLeft p {
+        text-align: center;
+    }
+
+    .footerInner .footerMain .footerRight .footer_nav {
+        gap: 45px !important;
+        text-align: center;
+    }
+
+    .footerInner .footerMain .footerRight .footerBNT {
+        text-align: center;
+    }
+
+    .footerInner .footerLower p {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footerInner .footerMain .footerLeft .footerBrand .footerLoogo a {
+        font-size: 36px;
+    }
+
+    .contactsec1 .consecImg {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../Images/consecImg1.jpg');
+    }
+
+    .contactsec1 .contSec1cont.forpadding,
+    .contactsec1 .contSec1cont,
+    .contactsec1 .contSec1cont.locpadding {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactsec1 .contSec1cont .container h1 {
+        font-size: 43px;
+    }
+
+    .contactsec1 .contSec1cont.locpadding .loctitle,
+    .contactsec1 .contSec1cont .container h1.title {
+        font-size: 43px;
+    }
+
+    .blogSec2 .sectionInner {
+        flex-direction: column;
+    }
+
+    .contactsec1 .consecImg.locationImg1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../Images/location1.jpg');
+    }
+
+    .locSec1 .locSecImg .locmain .locInner {
+        flex-direction: column;
+    }
+
 }
 
 
@@ -191,6 +275,18 @@
 
     .homeSec3 .secImg {
         background-image: linear-gradient(to right, rgba(15, 15, 15, 0.8), rgba(15, 15, 15, 0.8)), url('../Images/homeSec3Img1.jpg');
+    }
+
+    .homeSec5 .sec5Cont form .inputOuter {
+        flex-direction: column;
+    }
+
+    .homeSec5 .sec5Cont form .inputOuter.subimt {
+        align-items: end;
+    }
+
+    .blogSec2 .sectionInner .secmain .blogCon h1 {
+        font-size: 26px;
     }
 }
 
@@ -238,6 +334,16 @@
     .homeSec3 .secImg img {
         height: 70vh;
     }
+
+    .homeSec5 .sec5Cont h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .contactsec1 .contSec1cont.locpadding .loctitle,
+    .contactsec1 .contSec1cont .container h1.title {
+        font-size: 36px;
+    }
 }
 
 
@@ -252,5 +358,18 @@
 
     .homeSec3 .sec4Cont h1 {
         font-size: 23px;
+    }
+
+    .homeSec5 .sec5Cont h1 {
+        font-size: 30px;
+    }
+
+    .contactsec1 .contSec1cont.locpadding .loctitle,
+    .contactsec1 .contSec1cont .container h1.title {
+        font-size: 30px;
+    }
+
+    .contactsec1 .contSec1cont .container h3 {
+        font-size: 11px;
     }
 }
