@@ -248,6 +248,10 @@
         flex-direction: column;
     }
 
+    .footerInner .footerMain .footerLeft .footerBrand {
+        gap: 0;
+    }
+
 }
 
 
