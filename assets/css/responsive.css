@@ -255,11 +255,9 @@
     }
 
     .locSec1 .locSecImg {
-        background-image: linear-gradient(to right, rgba(0, 0, 1, 0.534), rgba(0,
-                    0,
-                    1,
-                    0.534)), url(../Images/location2.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 1, 0.534), rgba(0, 0, 1, 0.534)), url(../Images/location2.jpg);
         background-attachment: scroll;
+        height: 120vh;
     }
 
     .locSec1 .locSecImg .locmain .locInner {
@@ -497,6 +495,14 @@
 
     .locSec1 .locSecImg .locmain .locInner .right .rightInner .LocSlider .locMainSlide img {
         height: 217px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon p {
+        letter-spacing: 0;
+    }
+
+    .homeSec2 .Sec2_container .meetBTN {
+        padding-right: 40px;
     }
 }
 
