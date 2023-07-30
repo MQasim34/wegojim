@@ -1065,6 +1065,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     left: 0;
     right: 0;
     bottom: 0;
+    padding-top: 45px;
 }
 
 .aboutSec1 .aboutSec1Con .aboutInner {
@@ -1072,6 +1073,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-top: 45px;
 }
 
 .aboutSec1 h1 {
@@ -1082,6 +1084,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     letter-spacing: 2px;
     font-weight: 700;
     margin-top: 24px;
+    text-align: center;
     /* letter-spacing: 1.801px; */
 }
 

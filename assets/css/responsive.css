@@ -47,11 +47,6 @@
     .aboutSec1 .aboutUpper img {
         height: 150vh;
     }
-
-    .aboutSec1 .aboutSec1Con .aboutInner {
-        /* flex-wrap: wrap; */
-        /* width: 30.333%; */
-    }
 }
 
 
