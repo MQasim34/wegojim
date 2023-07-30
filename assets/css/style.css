@@ -1043,36 +1043,22 @@ font-family: 'Noto Sans JP', sans-serif; */
 
 /* aboutSec1 */
 .aboutSec1 {
-    position: relative;
-}
-
-.aboutSec1 {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../Images/blogimg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    padding: 90px;
 }
 
-.aboutSec1 .aboutUpper img {
+.aboutSec1 .aboutInner {
+    max-width: 1107px;
     width: 100%;
-    opacity: 0;
-}
-
-.aboutSec1 .aboutSec1Con {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding-top: 45px;
-}
-
-.aboutSec1 .aboutSec1Con .aboutInner {
+    margin: auto;
+    padding: 0 13px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
     margin-top: 45px;
 }
 
@@ -1088,14 +1074,14 @@ font-family: 'Noto Sans JP', sans-serif; */
     /* letter-spacing: 1.801px; */
 }
 
-.aboutSec1 .aboutSec1Con .aboutInner .innercont {
+.aboutSec1 .aboutInner .innercont {
     text-align: center;
     display: flex;
     gap: 30px;
     flex-direction: column;
 }
 
-.aboutSec1 .aboutSec1Con .aboutInner .innercont img {
+.aboutSec1 .aboutInner .innercont img {
     width: 264px;
     height: 264px;
     margin: auto;
@@ -1104,7 +1090,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     text-align: center;
 }
 
-.aboutSec1 .aboutSec1Con .aboutInner .innercont h3 {
+.aboutSec1 .aboutInner .innercont h3 {
     color: rgba(254, 195, 3, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
@@ -1115,7 +1101,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     margin: 0;
 }
 
-.aboutSec1 .aboutSec1Con .aboutInner .innercont p {
+.aboutSec1 .aboutInner .innercont p {
     color: #fff;
     line-height: 1.9;
     letter-spacing: 0em;
@@ -1126,7 +1112,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     font-style: normal;
 }
 
-.aboutSec1 .aboutSec1Con .aboutInner .innercont a {
+.aboutSec1 .aboutInner .innercont a {
     display: inline-block;
     width: auto;
     font-family: Montserrat, sans-serif;
