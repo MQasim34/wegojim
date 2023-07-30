@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
 </head>
 
 <body>
@@ -101,6 +102,69 @@
     </div>
 
 
+    <!-- review-section -->
+    <section>
+        <div class="reviewSec1">
+            <div class="reveiwInner">
+
+                <div class="slider-for">
+                    <div><img src="assets/Images/homeSec1Img1.jpg" alt=""></div>
+                    <div>your content</div>
+                    <div>your content</div>
+                </div>
+                <div class="mainNavSlide slider-nav">
+                    <div class="inner">
+                        <div>
+                            <div class="reSlideCon">
+                                <div class="left">
+                                    <h3>read the reviews</h3>
+                                    <h1>"superior equipment and staff."</h1>
+                                </div>
+                                <div class="right">
+                                    <p>"I'm baby air plant ugh lomo, plaid ennui hot chicken cred. Neutra 3 wolf moon
+                                        disrupt gochujang. VHS migas lomo
+                                        literally craft beer kickstarter fashion axe. Fashion axe tumeric flexitarian
+                                        PBR&B,
+                                        vegan ethical disrupt quinoa wolf
+                                        actually kickstarter you probably haven't heard of them poutine selfies shabby
+                                        chic.
+                                        Tousled put a bird on it seitan air
+                                        plant irony authentic keffiyeh narwhal schlitz bruh. Glossier sus truffaut roof
+                                        party tilde next level neutra
+                                        williamsburg readymade. Retro same pug humblebrag hashtag truffaut, pinterest
+                                        lyft."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>your content</div>
+                    <div>your content</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- section4 -->
+    <section>
+        <div class="homeSec4">
+            <div class="container">
+                <div class="secinner">
+                    <h1>subscribe</h1>
+                    <form action="">
+                        <input class="forNM" type="text" name="" id="" placeholder="Your Name*" required>
+                        <input class="forNM" type="email" name="" id="" placeholder="Email Address*" required>
+                        <input class="sibmit" type="submit" value="send it »">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- footer -->
     <footer>
         <div class="footerInner">
@@ -185,6 +249,31 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                fade: true,
+                arrows: true,
+                centerMode: true,
+                focusOnSelect: true,
+                prevArrow: 'next »',
+                nextArrow: 'prev »'
+            });
+        })
+    </script>
 
 </body>
 
