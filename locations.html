@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
 </head>
 
 <body>
@@ -122,18 +124,49 @@
     <section>
         <div class="locSec1">
             <div class="locSecImg">
-                <img src="assets/Images/homeSec1Img1.jpg" alt="">
+                <img class="locationsec2Img" src="assets/Images/homeSec1Img1.jpg" alt="">
 
                 <!-- locationscontent -->
                 <div class="locmain">
                     <div class="locInner">
-                        <!-- <div class="left">
-                            <h1>Left Section</h1>
+                        <div class="left">
+                            <div class="leftInner">
+                                <h1>FIND A LOCATION <br /> NEAR YOU</h1>
+                                <div class="leftLinks">
+                                    <a href="" class="locLinks">location one »</a>
+                                    <a href="" class="locLinks">location two »</a>
+                                    <a href="" class="locLinks">location three »</a>
+                                </div>
+                                <div class="locBTN">
+                                    <a href="">join now »</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="right">
-                            <h1>Right Section</h1>
-                        </div> -->
-                        <p>To Be Continue...</p>
+                            <div class="rightInner">
+                                <div class="LocSlider">
+                                    <div class="locMainSlide">
+                                        <div><img src="assets/Images/menuImg.jpg" alt=""></div>
+                                        <div><img src="assets/Images/locslider1.jpg" alt=""></div>
+                                        <div><img src="assets/Images/homeSec2Img1.jpg" alt=""></div>
+                                        <div><img src="assets/Images/blogimg1.jpg" alt=""></div>
+                                        <div><img src="assets/Images/location1.jpg" alt=""></div>
+                                        <div><img src="assets/Images/locslider2.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="rightCon">
+                                    <h1>LOCATION ONE</h1>
+                                    <p>I'm baby air plant ugh lomo, plaid ennui hot chicken cred. Neutra 3 wolf moon
+                                        disrupt <br /> gochujang. VHS migas lomo
+                                        literally craft beer kickstarter fashion axe. Fashion axe tumeric <br />
+                                        flexitarian
+                                        PBR&B, vegan ethical disrupt quinoa wolf
+                                        actually kickstarter you probably haven't <br /> heard of them poutine selfies
+                                        shabby
+                                        chic.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,6 +258,44 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.jquery.json"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.locMainSlide').slick({
+                dots: false,
+                infinite: true,
+                speed: 400,
+                slidesToShow: 5,
+                slidesToScroll: 2,
+                centerMode: true,
+                variableWidth: true,
+                prevArrow: '<svg class="slick_prevs" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="rgba(254, 195, 3, 1)" viewBox="0 0 512 512"><path d="M256,41C137.26,41,41,137.26,41,256s96.26,215,215,215,215-96.26,215-215S374.74,41,256,41ZM396.71,396.71A199,199,0,1,1,115.29,115.29,199,199,0,1,1,396.71,396.71Z"></path><path d="M361,261.71l.26-.36c.09-.12.18-.23.26-.35l.26-.42.19-.33a4.39,4.39,0,0,0,.21-.44c.06-.12.12-.24.17-.36s.11-.29.16-.43.1-.27.14-.4.08-.29.11-.44.08-.28.11-.42.05-.34.07-.51l.06-.36a10.58,10.58,0,0,0,0-1.78l-.06-.37c0-.17,0-.33-.07-.5s-.07-.29-.11-.43-.07-.28-.11-.42-.1-.28-.14-.42-.1-.28-.16-.41-.11-.26-.17-.39-.13-.28-.2-.41l-.21-.36c-.08-.13-.16-.27-.25-.4a4.61,4.61,0,0,0-.28-.38,3.81,3.81,0,0,0-.24-.32c-.19-.23-.38-.45-.59-.66h0l-53-53a9,9,0,0,0-12.72,12.72L332.27,247H158a9,9,0,0,0,0,18H332.27l-37.63,37.64a9,9,0,1,0,12.72,12.72l53-53,.09-.09C360.62,262.09,360.8,261.9,361,261.71Z"></path></svg>',
+                nextArrow: '<svg class="slick_next" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="rgba(254, 195, 3, 1)" viewBox="0 0 512 512"><path d="M256,41C137.26,41,41,137.26,41,256s96.26,215,215,215,215-96.26,215-215S374.74,41,256,41ZM396.71,396.71A199,199,0,1,1,115.29,115.29,199,199,0,1,1,396.71,396.71Z"></path><path d="M361,261.71l.26-.36c.09-.12.18-.23.26-.35l.26-.42.19-.33a4.39,4.39,0,0,0,.21-.44c.06-.12.12-.24.17-.36s.11-.29.16-.43.1-.27.14-.4.08-.29.11-.44.08-.28.11-.42.05-.34.07-.51l.06-.36a10.58,10.58,0,0,0,0-1.78l-.06-.37c0-.17,0-.33-.07-.5s-.07-.29-.11-.43-.07-.28-.11-.42-.1-.28-.14-.42-.1-.28-.16-.41-.11-.26-.17-.39-.13-.28-.2-.41l-.21-.36c-.08-.13-.16-.27-.25-.4a4.61,4.61,0,0,0-.28-.38,3.81,3.81,0,0,0-.24-.32c-.19-.23-.38-.45-.59-.66h0l-53-53a9,9,0,0,0-12.72,12.72L332.27,247H158a9,9,0,0,0,0,18H332.27l-37.63,37.64a9,9,0,1,0,12.72,12.72l53-53,.09-.09C360.62,262.09,360.8,261.9,361,261.71Z"></path></svg>',
+
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        })
+    </script>
 
 </body>
 

@@ -810,7 +810,7 @@ font-family: 'Noto Sans JP', sans-serif; */
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: 36px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -869,12 +869,19 @@ font-family: 'Noto Sans JP', sans-serif; */
 /* locSec1 */
 .locSec1 .locSecImg {
     position: relative;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Images/homeSec1Img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.locSec1 .locSecImg img {
+.locSec1 .locSecImg .locationsec2Img {
     width: 100%;
     height: 110vh;
     object-fit: cover;
+    opacity: 0;
+
 }
 
 .locSec1 .locSecImg .locmain {
@@ -894,11 +901,237 @@ font-family: 'Noto Sans JP', sans-serif; */
     top: 0;
     left: 0; */
     background-color: rgba(15, 15, 15, 0.7);
-    width: 1105px;
-    height: 400px;
+    max-width: 1105px;
+    width: 100%;
     display: flex;
     color: #fff;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 20px 32px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left {
+    width: 34.6%;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right {
+    width: 60%;
+    padding-left: 26px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner h1 {
+    border-bottom: 1px solid #fff;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 32px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 10px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks .locLinks {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks .locLinks:hover {
+    color: rgba(254, 195, 3, 1);
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner .locBTN {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.locSec1 .locSecImg .locmain .locInner .left .leftInner .locBTN a {
+    text-decoration: none;
+    color: rgba(254, 195, 3, 1);
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .LocSlider .locMainSlide img {
+    width: 100%;
+    height: 230px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .LocSlider svg.slick_prevs.slick-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    z-index: 10;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .LocSlider svg.slick_next.slick-arrow {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon {
+    padding-top: 25px;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon h1 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon p {
+    color: #fff;
+    line-height: 1.9;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+
+.contactsec1 .consecImg.aboutImg1 {
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/aboutImg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* aboutSec1 */
+.aboutSec1 {
+    position: relative;
+}
+
+.aboutSec1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../Images/blogimg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.aboutSec1 .aboutUpper img {
+    width: 100%;
+    opacity: 0;
+}
+
+.aboutSec1 .aboutSec1Con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.aboutSec1 h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 24px;
+    /* letter-spacing: 1.801px; */
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner .innercont {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner .innercont img {
+    width: 264px;
+    height: 264px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 60%;
+    text-align: center;
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner .innercont h3 {
+    color: rgba(254, 195, 3, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner .innercont p {
+    color: #fff;
+    line-height: 1.9;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.aboutSec1 .aboutSec1Con .aboutInner .innercont a {
+    display: inline-block;
+    width: auto;
+    font-family: Montserrat, sans-serif;
+    border: none;
+    color: rgb(254, 195, 3);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
 }

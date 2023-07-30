@@ -39,6 +39,19 @@
     .footerInner .footerMain .footerLeft p br {
         display: none;
     }
+
+    .aboutSec1 .aboutSec1Con {
+        padding: 45px 0;
+    }
+
+    .aboutSec1 .aboutUpper img {
+        height: 150vh;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner {
+        /* flex-wrap: wrap; */
+        /* width: 30.333%; */
+    }
 }
 
 
@@ -252,6 +265,52 @@
         gap: 0;
     }
 
+    .locSec1 .locSecImg .locmain .locInner .left,
+    .locSec1 .locSecImg .locmain .locInner .right {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .locSec1 .locSecImg .locationsec2Img {
+        height: 128vh;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner h1 {
+        text-align: left;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .locBTN,
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks {
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner {
+        margin: 0;
+    }
+
+    .contactsec1 .consecImg.aboutImg1 {
+        position: relative;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../Images/aboutImg2.jpg');
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner {
+        flex-wrap: wrap;
+        margin-top: 45px;
+    }
+
+    .aboutSec1 .aboutUpper img {
+        height: 284vh;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont {
+        width: 46%;
+    }
+
+    .aboutSec1 h1 {
+        text-align: center;
+    }
 }
 
 
@@ -261,6 +320,69 @@
     .homeSec3 .secImg img {
         height: 100vh;
     }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner h1 {
+        font-size: 26px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks {
+        gap: 5px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .locBTN {
+        margin-top: 20px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon p br {
+        display: none;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner {
+        gap: 20px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon {
+        padding-top: 15px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon h1 {
+        margin-bottom: 12px;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .aboutSec1 .aboutUpper img {
+        height: 280vh;
+    }
+
+    aboutSec1 {
+        font-size: 36px;
+    }
+
+    .aboutSec1 .aboutSec1Con {
+        padding: 20px 0;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont h3 {
+        margin-top: 5px;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -291,6 +413,22 @@
 
     .blogSec2 .sectionInner .secmain .blogCon h1 {
         font-size: 26px;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont p {
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .aboutSec1 .aboutUpper img {
+        height: 290vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .aboutSec1 .aboutUpper img {
+        height: 295vh;
     }
 }
 
@@ -348,6 +486,76 @@
     .contactsec1 .contSec1cont .container h1.title {
         font-size: 36px;
     }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner h1 {
+        font-size: 20px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .leftLinks .locLinks {
+        font-size: 12px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .left .leftInner .locBTN a {
+        font-size: 14px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .rightCon h1 {
+        font-size: 22px;
+    }
+
+    .locSec1 .locSecImg .locmain .locInner .right .rightInner .LocSlider .locMainSlide img {
+        height: 217px;
+    }
+
+    .aboutSec1 h1 {
+        font-size: 30px;
+    }
+
+    .aboutSec1 .aboutUpper img {
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-width: 427px) {
+    .aboutSec1 .aboutUpper img {
+        height: 315vh;
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    .aboutSec1 .aboutUpper img {
+        height: 324vh;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    aboutSec1 {
+        font-size: 26px;
+    }
+
+    .aboutSec1 .aboutSec1Con {
+        padding: 0px 0;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner {
+        margin-top: 20px;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .aboutSec1 .aboutSec1Con .aboutInner .innercont p {
+        letter-spacing: 0;
+        font-size: 13px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .aboutSec1 .aboutUpper img {
+        height: 280vh;
+    }
 }
 
 
@@ -375,5 +583,23 @@
 
     .contactsec1 .contSec1cont .container h3 {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .aboutSec1 .aboutUpper img {
+        height: 290vh;
+    }
+}
+
+@media only screen and (max-width:336px) {
+    .aboutSec1 .aboutUpper img {
+        height: 299vh;
+    }
+}
+
+@media only screen and (max-width:321px) {
+    .aboutSec1 .aboutUpper img {
+        height: 305vh;
     }
 }
